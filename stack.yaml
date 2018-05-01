@@ -1,0 +1,7 @@
+resolver: lts-10.9
+extra-deps:
+  - hakyll-sass-0.2.3
+  - hakyll-4.11.0.0
+  - pandoc-citeproc-0.13.0.1
+flags: {}
+extra-package-dbs: []
