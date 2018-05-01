@@ -16,4 +16,4 @@ $ stack exec site build
 $ stack exec site watch
 ```
 
-ってすると`http://localhost:8000/`で見れる．
+ってすると`http://localhost:8000/`でプレビューできるかもしれない．
