@@ -1,7 +1,12 @@
-<ul>
+<section class="section">
+  <div class="container">
+    <div class="tile is-parent is-vertical">
     $for(posts)$
-        <li>
-            <a href="$url$">$title$</a> - $date$
-        </li>
-    $endfor$
-</ul>
+      <article class="tile is-child notification is-success">
+        <p><a href="$url$" class="title">$title$</a></p>
+        <p class="subtitle">$date$</p>
+      </article>
+      $endfor$
+    </div>
+  </div>
+</section>
